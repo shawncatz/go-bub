@@ -1,6 +1,4 @@
-/* bub
-
-   BitBucket / Stash version of Hub
+/* bub - BitBucket / Stash version of Hub
 
    Add the following functionality to the git command.
 
