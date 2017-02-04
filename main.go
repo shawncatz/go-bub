@@ -22,18 +22,15 @@ import (
 	"github.com/urfave/cli"
 )
 
+var (
+	cmdList = []cli.Command{} // so that the individual files can append to the list
+)
+
 func main() {
 	app := cli.NewApp()
 	app.Name = "bub"
 	app.Version = "0.1.0"
-
-	app.Commands = []cli.Command{
-		{
-			Name:   "pull-request",
-			Usage:  "create a pull-request",
-			Action: cmdPullRequest,
-		},
-	}
+	app.Commands = cmdList
 
 	app.Run(os.Args)
 }
