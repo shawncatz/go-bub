@@ -1,0 +1,6 @@
+package: github.com/shawncatz/go-bub
+import:
+- package: github.com/ktrysmt/go-bitbucket
+  version: ~0.2.1
+- package: github.com/urfave/cli
+  version: ~1.19.1

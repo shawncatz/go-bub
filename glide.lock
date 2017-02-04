@@ -1,0 +1,8 @@
+hash: 1caeadc68287cf11051c71884d8c56a80b8c2c1e05fd857b4abebfda9221d5dc
+updated: 2017-02-03T22:44:07.70758363-08:00
+imports:
+- name: github.com/ktrysmt/go-bitbucket
+  version: 9674f0380ae4c3c7e618f196323f9233041eeb36
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+testImports: []
